@@ -1,0 +1,140 @@
+#box {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    margin: -8px;
+}
+
+#curtain {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 10px;
+    bottom: 0%;
+    transition-property: bottom;
+    transition-duration: .2s;
+    z-index: 10;
+}
+
+#curtain:hover {
+    bottom: 5%;
+}
+
+#img_curtain {
+    height: 100%;
+    width: 100%;
+    object-position: center;
+
+}
+
+#show {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    left: 25%;
+}
+
+#lamp {
+    position: absolute;
+    top: 2%;
+    left: 50%;
+    z-index: 9;
+}
+
+#img_lamp {
+
+    width: 60%;
+
+}
+
+#light {
+    position: absolute;
+    top: 7.3%;
+    left: 13.7%;
+    opacity: 0%;
+    height: 30%;
+    width: 29.5%;
+    transition-property: opacity;
+    transition-duration: .2s;
+    z-index: 8;
+    pointer-events: none;
+
+#trapecia {
+	border-bottom: 700px solid yellow;
+	border-left: 350px solid transparent;
+	border-right: 350px solid transparent;
+	height: 0;
+	width: 30%;
+}
+
+#girl {
+    position: absolute;
+    top: 50%;
+    left: 23%;
+    z-index: 2;
+    opacity: 0%;
+    transition-property: opacity;
+    transition-duration: .2s;
+}
+
+#img_girl {
+    width: 75%;
+}
+
+#rabbit {
+    position: absolute;
+    top: 50%;
+    left: 64%;
+    z-index: 7;
+    opacity: 0%;
+    transition-property: opacity, top;
+    transition-duration: .2s;
+}
+
+#img_rabbit {
+    width: 22%;
+}
+
+#hat {
+    position: absolute;
+    top: 60%;
+    left: 60%;
+    z-index: 7;
+    opacity: 0%;
+    transition-property: opacity;
+    transition-duration: .2s;
+}
+
+#img_hat {
+    width: 35%;
+}
+
+
+#pigeon {
+    position: absolute;
+    top: 62%;
+    left: 63%;
+    z-index: 7;
+    opacity: 0%;
+    transition-property: opacity, top;
+    transition-duration: .2s;
+    z-index: 3;
+}
+
+#img_pigeon {
+    width: 22%;
+}
+
+#dergalka {
+    position: absolute;
+    top: 3%;
+    left: 51%;
+    z-index: 8;
+    transition-property: top;
+    transition-duration: .1s;
+}
+
+#img_dergalka {
+    width: 85%;
+}
